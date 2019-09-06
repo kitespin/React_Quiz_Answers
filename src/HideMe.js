@@ -33,7 +33,6 @@ constructor(props) {
 			</div>
 		);
 	}
-	
 }
 
 

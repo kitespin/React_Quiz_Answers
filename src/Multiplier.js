@@ -6,7 +6,7 @@ class Multiplier extends Component {
 		let { x , y } = this.props
 		return(
 			<div className="jumbotron">
-				<h3>Multiplier component</h3> 
+				<h3>Multiplier</h3> 
 				<p> { x * y } </p>
 			</div>
 		);
