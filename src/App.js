@@ -6,6 +6,7 @@ import Multiplier from "./Multiplier";
 import EvenClicks from "./EvenClicks";
 import CountBy from "./CountBy";
 import HideMe from "./HideMe";
+import MinimumLength from "./MinimumLength";
 
 const App = () => (
   <React.Fragment>
@@ -14,6 +15,7 @@ const App = () => (
   <EvenClicks />
   <CountBy step={5}/>
   <HideMe>I love cheese triangles</HideMe>
+  <MinimumLength />
   </React.Fragment>
 );
 export default App;

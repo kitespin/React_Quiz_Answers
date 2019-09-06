@@ -28,11 +28,8 @@ constructor(props) {
 
 		let { children } = this.props
 		return(
-			<div>
-			<h3>HideMe</h3>
 			<div onClick={ this.handleClick } className="jumbotron"> 
 				<p> { this.state.clicked ?  children  : "" } </p>
-			</div>
 			</div>
 		);
 	}
