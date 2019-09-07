@@ -22,6 +22,7 @@ handleChange(e) {
 
 
   render() {
+    let { length } = this.props
     return (
       <div className="form-group jumbotron">
         <h3>MinimumLength</h3>
@@ -32,7 +33,7 @@ handleChange(e) {
           className="form-control"
         />
 
-        <p handleChange={ this.handleChange } style = {{ color: "red" }}>{ this.state.input.length < 30  ? "Too short!" : "" }</p>
+        <p handleChange={ this.handleChange } style = {{ color: "red" }}>{ this.state.input.length < length ? "Too short!" : "" }</p>
       </div> 
     );
   } 
